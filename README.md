@@ -1,5 +1,5 @@
-# Simple-SignUp 🔒
-_**SimpleSignUp**: is a barebones application to create your own login with some functionality._
+# Authentification Simple-SignUp 🔒
+_**Authentification**: is a barebones application to create your own login with some functionality._
 
 ## Technology
 * Node.js + Express.js + BodyParser (Server + WebAPI)
