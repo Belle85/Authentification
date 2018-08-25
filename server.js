@@ -14,6 +14,11 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 app.use(express.static("public"));
 
+//ROUTES
+
+require('.routes/htmlRoutes')(app); //See the app in the server.js
+
+
 app.listen(PORT, function(){
     // if(mode !== 'production'){
     //     var opn = require('opn')
